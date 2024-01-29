@@ -4,12 +4,11 @@
     box-sizing: border-box;
     font-family: Inter;
 }
-/* Backgrounds */
-#firstBackgroundPeople {
-    background: url(../images/Illustrationbackground\ 1.png);
+body {
+    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg);
     background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 69% auto;
+    background-position: top right, 0 1428.96px;
+    background-size: 69% auto, auto;
 }
 /* NAVBAR Styles */
 .navDiv {
@@ -74,9 +73,9 @@ h1 {
     line-height: 54px;
     width: 553px;
 }
-#greyParagraph{
+#greyParagraph {
     margin-top: 30px;
-    width: 511px;
+    width: 35%;
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -90,4 +89,54 @@ h1 {
 .introductionDiv button:hover {
     color: #22A75D;
     background-color: #FFF;
+}
+.creatorHolderDiv{
+    display: flex;
+    margin: 290px auto 0 auto;
+    color: #191B21;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 0 173px;
+}
+.creatorHolderDiv div{
+    text-align: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    border-radius: 25px;
+    
+}
+
+.creatorHolderDiv p {
+    opacity: 0.6;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 70%;
+    height: 730px;
+}
+
+h2 {
+    margin-top: 134px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+.creatorHeading, .holderHeading {
+    color: #22A75D;
+    text-decoration-line: underline;
+}
+.holderHeading {
+    color: #2278D4;
+}
+.creator {
+    background-image: url(../images/colorcreatorBoy.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgba(242, 240, 244, 0.95);
+}
+.holder {
+    background-image: url(../images/holderBoy.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: rgba(242, 240, 244, 0.95);
 }

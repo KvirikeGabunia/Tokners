@@ -5,10 +5,10 @@
     font-family: Inter;
 }
 body {
-    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg);
+    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg), url(../images/Subtract.png);
     background-repeat: no-repeat;
-    background-position: top right, 0 1428.96px;
-    background-size: 69% auto, auto;
+    background-position: top right, 0 1650px, 0 3131px;
+    background-size: 69% auto, 100%, 100%;
 }
 /* NAVBAR Styles */
 .navDiv {
@@ -194,4 +194,29 @@ h3 {
     font-weight: 700;
     font-size: 12px;
     opacity: 1;
+}
+.rocketText {
+    margin-top: 300px;
+    display: flex;
+    gap: 8%;
+    padding: 0 8%;
+}
+.rocketText > img {
+    width: 50%;
+}
+.rocketText p {
+    font-weight: 300;
+    opacity: 0.6;
+    line-height: 24px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+h4 {
+    color: #191B21;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+}
+b {
+    font-weight: 500;
 }

@@ -174,3 +174,24 @@ h3 {
     font-weight: 300;
     font-size: 16px;
 }
+.offeringLists {
+    margin-top: 325px;
+    padding-top: 230px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/image\ 66.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.listedP {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    opacity: 0.7;
+}
+.listedNumber {
+    color: #2278D4;
+    font-weight: 700;
+    font-size: 12px;
+    opacity: 1;
+}

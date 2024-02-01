@@ -5,10 +5,10 @@
     font-family: Inter;
 }
 body {
-    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg), url(../images/Subtract.png);
+    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg), url(../images/Subtract.png), url(../images/Subtract2.png);
     background-repeat: no-repeat;
-    background-position: top right, 0 1650px, 0 3131px;
-    background-size: 69% auto, 100%, 100%;
+    background-position: top right, 0 1650px, 0 3131px, 0 4150px;
+    background-size: 69% auto, 100%, 100%, 100%;
 }
 /* NAVBAR Styles */
 .navDiv {
@@ -219,4 +219,73 @@ h4 {
 }
 b {
     font-weight: 500;
+}
+.detailsInstructions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 223px;
+    padding-top: 100px;
+    background-image: url(../images/image\ 30.png), url(../images/image\ 21.png);
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+}
+.detailsPhases {
+    display: flex;
+    justify-content: space-around;
+}
+h5, .howToBuyBoxTitle {
+    font-weight: 500;
+    line-height: 54px;
+    font-size: 48px;
+    text-align: center;
+    color: #F7F5F9;
+    
+}
+.phase1, .phase2, .phase3 {
+    background-color: #FFF;
+    text-align: center;
+    padding: 7% 8% 8% 8%;
+    border-radius: 25px;
+}
+.phase1 {
+    margin-bottom: 60px;
+}
+.phase2 {
+    margin-top: 60px;
+}
+.phase3 {
+    margin-bottom: 60px;
+}
+.phaseNumber {
+    width: 13%;
+}
+.howToBuyBox {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFF;
+}
+.howToBuyBoxTitle {
+    font-size: 36px;
+}
+h6 {
+    font-size: 32px;
+    color: #191B21;
+    font-weight: 500;
+    line-height: 54px;
+}
+.detailsPhases p {
+    opacity: 0.8;
+    margin-top: 10px;
+}
+.itemDate {
+    margin-top: 4px;
+    margin-bottom: 70px;
+}
+.exchangeValue {
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 20px;
 }

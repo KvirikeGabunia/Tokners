@@ -249,12 +249,24 @@ h5, .howToBuyBoxTitle {
 }
 .phase1 {
     margin-bottom: 60px;
+    background-image: url(../images/01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15px;
 }
 .phase2 {
     margin-top: 60px;
+    background-image: url(../images/02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15px;
 }
 .phase3 {
     margin-bottom: 60px;
+    background-image: url(../images/03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 15px;
 }
 .phaseNumber {
     width: 13%;

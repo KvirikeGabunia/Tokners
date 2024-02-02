@@ -5,10 +5,11 @@
     font-family: Inter;
 }
 body {
-    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg), url(../images/Subtract.png), url(../images/Subtract2.png);
+    background-image: url(../images/Illustrationbackground\ 1.png), url(../images/UnionblackThing.svg), url(../images/Subtract.png), 
+    url(../images/Subtract2.png), url(../images/Subtract3.png);
     background-repeat: no-repeat;
-    background-position: top right, 0 1650px, 0 3131px, 0 4150px;
-    background-size: 69% auto, 100%, 100%, 100%;
+    background-position: top right, 0 1650px, 0 3131px, 0 4150px, bottom;
+    background-size: 69% auto, 100%, 100%, 100%, 100%;
 }
 /* NAVBAR Styles */
 .navDiv {
@@ -300,4 +301,42 @@ h6 {
     font-size: 20px;
     font-weight: 500px;
     margin-bottom: 20px;
+}
+/* FOOTER Styles */
+footer {
+    margin-bottom: 100px;
+}
+
+.footerDiv {
+    margin-top: 200px;
+    padding: 0 20%;
+}
+footer > div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+footer span {
+    opacity: 0.16;
+    color: #FFFFFF;
+}
+footer button {
+    background-color: #1D1534;
+    border-radius: 2500px;
+    padding: 10px;
+    border: 2px white;
+}
+footer button:hover {
+    background-color:#2278D4;
+    transition: 0.5s;
+}
+.ccDiv {
+    text-align: right;
+}
+.ccDiv > p {
+    color: #FFFFFF;
+}
+.ccDiv > a {
+    text-decoration: underline;
+    opacity: 0.16;
 }
